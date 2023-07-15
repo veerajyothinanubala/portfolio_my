@@ -1,0 +1,68 @@
+.bannerBgImage{
+    background-image:url("../images/jyothi4.jpg");
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+
+}
+.bannerText{
+    text-align:right;
+    position:absolute ;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color:white;
+}
+.bannerTitle{
+    font-size: 4rem;
+    
+}
+.bannerDesc {
+    font-size: 2rem;
+
+}
+.card{
+    cursor:pointer;
+}
+.card:hover{
+    background-color: rgb(216, 112, 147);
+    border: 2px solid yellowgreen;
+}
+.bIcon{
+    width:100%;
+    text-align: center;
+    font-size:40px;
+}
+.img-fluid:hover{
+    border: 2px solid yellowgreen;
+
+}
+.card-img-top{
+    height:50vh;
+}
+    
+#buttons{
+background-color: blue;
+color: aliceblue;
+border-radius: 5px;
+
+}
+.about{
+background-color: blueviolet;
+}
+.footer{
+background-color: black;
+height: 140px;
+color: aliceblue;
+text-align:center;
+} 
+
+.icons{
+position:relative;
+align-items: center;
+font-size: 40px;
+margin-right: 10px;
+}
+*{
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
